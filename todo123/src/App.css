@@ -1,0 +1,132 @@
+/* General Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Main Container */
+.container {
+  width: 90%;
+  max-width: 500px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Title */
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #ff6b81;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Task Groups */
+.task-group {
+  background: #fff5f5;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Task Titles */
+.task-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff4757;
+  margin-bottom: 10px;
+}
+
+/* Input Fields */
+.task-input-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.task-input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ff6b81;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+
+.task-input:focus {
+  border-color: #ff4757;
+  background: #fff0f3;
+}
+
+/* Task Items */
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fdd8da;
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.task-text {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  outline: none;
+}
+
+.task-text.completed {
+  text-decoration: line-through;
+  color: #8f2dc0;
+}
+
+/* Buttons */
+.btn {
+  cursor: pointer;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+}
+
+.add {
+  background: #f8697e;
+  color: white;
+}
+
+.add:hover {
+  background: #e8414c;
+}
+
+.complete {
+  background: #2ed573;
+  color: white;
+}
+
+.complete:hover {
+  background: #1e9c55;
+}
+
+.delete {
+  background: #dd4653;
+  color: rgb(255, 255, 255);
+}
+
+.delete:hover {
+  background: #9d190a;
+}
