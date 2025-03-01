@@ -1,6 +1,7 @@
-import React, { useState } from "react";
-import "./Signup.css";
+import  { useState } from "react";
+import "./signup.css";
 
+// eslint-disable-next-line react/prop-types
 function Signup({ onSignup }) {
   const [formData, setFormData] = useState({
     name: "",
@@ -20,7 +21,7 @@ function Signup({ onSignup }) {
 
   return (
     <div className="signup-container">
-      <h2 className="signup-title">Create an Account ✨</h2>
+      <h2 className="signup-title">Create an Account</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
