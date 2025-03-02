@@ -4,9 +4,12 @@
 
 - The 1-3-5 To-Do List method helps prioritize tasks efficiently by categorizing them into three levels of importance:
 
-- 1 Big Task – The most important or time-consuming task of the day.
-- 3 Medium Tasks – Significant but not overwhelming tasks.
-- 5 Small Tasks – Quick, easy tasks that still need attention.
+- 1 Big Task 
+The most important or time-consuming task of the day.
+- 3 Medium Tasks 
+Significant but not overwhelming tasks.
+- 5 Small Tasks 
+Quick, easy tasks that still need attention.
 
 
 
