@@ -24,3 +24,6 @@ Quick, easy tasks that still need attention.
 HTML, CSS, React for a dynamic UI.
 
 ***A lightweight and efficient app for daily productivity! ***
+
+**Deployment link**
+https://todo-135.netlify.app/
