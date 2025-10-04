@@ -1,5 +1,8 @@
 # To-Do List App
 
+**Deployment link**
+https://todo-135.netlify.app/
+
 - A simple task management app to add, delete, and mark tasks as completed. It helps users stay organized with a clean and easy-to-use interface.
 
 - The 1-3-5 To-Do List method helps prioritize tasks efficiently by categorizing them into three levels of importance:
@@ -24,6 +27,3 @@ Quick, easy tasks that still need attention.
 HTML, CSS, React for a dynamic UI.
 
 ***A lightweight and efficient app for daily productivity! ***
-
-**Deployment link**
-https://todo-135.netlify.app/
